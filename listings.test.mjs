@@ -1,0 +1,1 @@
+import{test}from'node:test';import{strict as assert}from'node:assert';import{validate,template}from'./listings.mjs';test('retains price in three languages',()=>{const d=validate({area:'Dubai Marina',type:'apartment',size:900,beds:1,price:1500000});assert.equal(Object.keys(template(d)).length,3);for(const c of Object.values(template(d)))assert.match(c,/1,500,000/)});
