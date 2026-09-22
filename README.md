@@ -5,3 +5,7 @@ Independent Dubai real estate listing demo. Enter verified property facts and ge
 Node 20+: `npm start`, then open `http://127.0.0.1:4202`. Run `npm test`. Set `.env.example` values in the server environment; `.env` is not loaded automatically.
 
 An agent must verify facts, translations and advertising permissions before publishing. [Dubai Land Department ad permit guidance](https://dubailand.gov.ae/en/eservices/real-estate-ad-permit/).
+
+## Live demo
+
+[Open the interactive demo](https://aytajkhudiyeva.github.io/multilingual-property-listings/). The GitHub Pages version runs in the browser with deterministic sample logic and no server-side AI or external account integration. Use fictional data. The Node server remains available for local development and integration work.
